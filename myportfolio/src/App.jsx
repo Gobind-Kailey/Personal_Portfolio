@@ -8,6 +8,8 @@ import Skills from './components/Skills/Skills';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import BlurBlob from './BlurBlob'; // Importing BlurBlob component
+// import profileImage from '../src/assets/profile_picture_modified.png'; // Ensure this path is correct
+
 
 const App = () => {
   return (
