@@ -1,11 +1,12 @@
-/** @type {import('tailwindcss').Config} */
-module.exports = {
+// tailwind.config.js
+export default {
   content: [
-    "./src/**/*.{js,jsx,ts,tsx}",  // VERY IMPORTANT
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
-       keyframes: {
+      keyframes: {
         blob: {
           '0%': { transform: 'scale(1)' },
           '33%': { transform: 'scale(1.2)' },
@@ -14,12 +15,12 @@ module.exports = {
         },
       },
       animation: {
-        blob: 'blob 10s infinite', // As long as my page is open, the blob will animate
+        blob: 'blob 10s infinite',
       },
       backgroundImage: {
         'skills-gradient': 'linear-gradient(38.73deg, rgba(204, 0, 187, 0.15) 0%, rgba(201, 32, 184, 0) 50%), linear-gradient(141.27deg, rgba(0, 70, 209, 0) 50%, rgba(0, 70, 209, 0.15) 100%)',
       },
-    }
+    },
   },
   plugins: [],
-}
+};
