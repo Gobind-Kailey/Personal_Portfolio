@@ -1,4 +1,6 @@
 import React from 'react'
+import { experiences } from "../../constants"; // Import your data
+
 
 function Experience() {
   return (
@@ -9,3 +11,4 @@ function Experience() {
 }
 
 export default Experience
+
