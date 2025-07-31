@@ -119,26 +119,26 @@ export const SkillsInfo = [
     
   ];
   
-  // export const education = [
-  //   {
-  //     id: 0,
-  //     img: mcmasterLogo,
-  //     school: "McMaster University, Hamilton",
-  //     date: "September 2023 - April 2027",
-  //     // grade: "3.6/4.0 CGPA",
-  //     desc: "I am currently pursuing my Bachelor's degree in Computer Engineering at McMaster University, Canada. My coursework includes advanced topics in computer science and engineering, such as Data Structures and Algorithms, Operating Systems, Computer Networks, and Software Engineering. I am actively involved in various projects that apply theoretical concepts to practical applications, enhancing my skills in programming, problem-solving, and teamwork.",
-  //     degree: "Bachelor of Engineering - B.Eng (Computer Engineering)",
-  //   },
-  //   {
-  //     id: 1,
-  //     img: assumptionLogo,
-  //     school: "Assumption College School, Brantford",
-  //     date: "Apr 2019 - March 2023",
-  //     // grade: "95%",
-  //     desc: "I completed my high school education at Assumption College School in Brantford, Ontario, where I excelled in my studies with a focus on Mathematics and Computer Science. My coursework included advanced mathematics, computer programming, and physics, which laid a strong foundation for my future studies in computer engineering. I was actively involved in extracurricular activities, including coding clubs and science fairs, which further developed my passion for technology.",
-  //     degree: "HighSchool Dipoma - Ontario Secondary School Diploma (OSSD)",
-  //   },
-  // ];
+  export const education = [
+    {
+      id: 0,
+      img: mcmasterLogo,
+      school: "McMaster University, Hamilton",
+      date: "September 2023 - April 2027",
+      // grade: "3.6/4.0 CGPA",
+      desc: "I am currently pursuing my Bachelor's degree in Computer Engineering at McMaster University, Canada. My coursework includes advanced topics in computer science and engineering, such as Data Structures and Algorithms, Operating Systems, Computer Networks, and Software Engineering. I am actively involved in various projects that apply theoretical concepts to practical applications, enhancing my skills in programming, problem-solving, and teamwork.",
+      degree: "Bachelor of Engineering - B.Eng (Computer Engineering)",
+    },
+    {
+      id: 1,
+      img: assumptionLogo,
+      school: "Assumption College School, Brantford",
+      date: "Apr 2019 - March 2023",
+      // grade: "95%",
+      desc: "I completed my high school education at Assumption College School in Brantford, Ontario, where I excelled in my studies with a focus on Mathematics and Computer Science. My coursework included advanced mathematics, computer programming, and physics, which laid a strong foundation for my future studies in computer engineering. I was actively involved in extracurricular activities, including coding clubs and science fairs, which further developed my passion for technology.",
+      degree: "HighSchool Dipoma - Ontario Secondary School Diploma (OSSD)",
+    },
+  ];
   
 
   export const projects = [
