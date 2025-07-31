@@ -29,6 +29,7 @@ import arduinoLogo from './assets/Arduino.svg';
 // Experience Section Logo's
 import subwaylogo from './assets/subway.png';
 // Education Section Logo's
+import mcmasterLogo from './assets/Uni_mcmaster_logo.svg.png';
 import assumptionLogo from './assets/Assumption.png';
 
 // Project Section Logo's
@@ -97,7 +98,7 @@ export const SkillsInfo = [
       role: "Subway Sandwich Artist",
       company: "Subway",
       date: "September 2024 - August 2025",
-      desc: "• Welcome customers with enthusiasm and satisfy customers to their needs. \n • Being an active listener and taking accurate orders while being efficient and answering all questions in detail. • Working well with a team and offering help with a positive attitude.• Memorizing all sandwich formulas for best customer service.• Providing exceptional Cashier Customer service.• Fast learner as I was able to quickly learn and adapt to Subway’s environment.Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
+      desc: "• Welcome customers with enthusiasm and satisfy customers to their needs. • Being an active listener and taking accurate orders while being efficient and answering all questions in detail. • Working well with a team and offering help with a positive attitude.• Memorizing all sandwich formulas for best customer service.• Providing exceptional Cashier Customer service.• Fast learner as I was able to quickly learn and adapt to Subway’s environment.Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
       skills: [
         "Problem Solving",
         "Interpersonal Skills",
@@ -107,127 +108,112 @@ export const SkillsInfo = [
         "Adaptability",
       ],
     },
+    
+    
   ];
   
-  // export const education = [
-  //   {
-  //     id: 0,
-  //     img: glaLogo,
-  //     school: "GLA University, Mathura",
-  //     date: "Sept 2022 - July 2024",
-  //     grade: "7.81 CGPA",
-  //     desc: "I have completed my Master's degree (MCA) in Computer Applications from GLA University, Mathura. During my time at GLA, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GLA University has been instrumental in shaping my technical abilities and professional growth.",
-  //     degree: "Master of Computer Applications - MCA",
-  //   },
-  //   {
-  //     id: 1,
-  //     img: bsaLogo,
-  //     school: "BSA College, Mathura",
-  //     date: "Sept 2018 - Aug 2021",
-  //     grade: "73.2%",
-  //     desc: "I completed my Bachelor's degree in Computer Science (B.Sc.) from BSA College, Mathura. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
-  //     degree: "Bachelor of Science - BSC (Computer Science)",
-  //   },
-  //   {
-  //     id: 2,
-  //     img: vpsLogo,
-  //     school: "Vatsalya Public School Govardhan, Mathura",
-  //     date: "Apr 2017 - March 2018",
-  //     grade: "78%",
-  //     desc: "I completed my class 12 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
-  //     degree: "CBSE(XII) - PCM with Computer Science",
-  //   },
-  //   {
-  //     id: 3,
-  //     img: vpsLogo,
-  //     school: "Vatsalya Public School Govardhan, Mathura",
-  //     date: "Apr 2015 - March 2016",
-  //     grade: "87.5%",
-  //     desc: "I completed my class 10 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Science with Computer.",
-  //     degree: "CBSE(X), Science with Computer Application",
-  //   },
-  // ];
+  export const education = [
+    {
+      id: 0,
+      img: mcmasterLogo,
+      school: "McMaster University, Hamilton",
+      date: "September 2023 - April 2027",
+      // grade: "3.6/4.0 CGPA",
+      desc: "I am currently pursuing my Bachelor's degree in Computer Engineering at McMaster University, Canada. My coursework includes advanced topics in computer science and engineering, such as Data Structures and Algorithms, Operating Systems, Computer Networks, and Software Engineering. I am actively involved in various projects that apply theoretical concepts to practical applications, enhancing my skills in programming, problem-solving, and teamwork.",
+      degree: "Bachelor of Engineering - B.Eng (Computer Engineering)",
+    },
+    {
+      id: 1,
+      img: assumptionLogo,
+      school: "Assumption College School, Brantford",
+      date: "Apr 2019 - March 2023",
+      // grade: "95%",
+      desc: "I completed my high school education at Assumption College School in Brantford, Ontario, where I excelled in my studies with a focus on Mathematics and Computer Science. My coursework included advanced mathematics, computer programming, and physics, which laid a strong foundation for my future studies in computer engineering. I was actively involved in extracurricular activities, including coding clubs and science fairs, which further developed my passion for technology.",
+      degree: "HighSchool Dipoma - Ontario Secondary School Diploma (OSSD)",
+    },
+  ];
   
   // export const projects = [
   //   {
   //     id: 0,
-  //     title: "GitHub Profile Detective",
+  //     title: "Embedded Spatial Mapping System",
   //     description:
   //       "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
   //     image: githubdetLogo,
-  //     tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-  //     github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-  //     webapp: "https://githubprofiledetective.netlify.app/",
+  //     tags: ["Python", "C", "Microcontroller", "Keil uVision"],
+  //     github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS", // add to github
+     // // webapp: "https://githubprofiledetective.netlify.app/",
   //   },
   //   {
   //     id: 1,
-  //     title: "CS Prep",
+  //     title: "Arduino Line Follower Robot",
   //     description:
-  //       "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
-  //     image: csprepLogo,
-  //     tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-  //     github: "https://github.com/codingmastr/CSPrep",
-  //     webapp: "https://csprep.netlify.app/",
-  //   },
-  //   {
-  //     id: 2,
-  //     title: "Movie Recommendation App",
-  //     description:
-  //       "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-  //     image: movierecLogo,
-  //     tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-  //     github: "https://github.com/codingmastr/Movie-Recommendation-App",
-  //     webapp: "https://movie-recommendation-app-jet.vercel.app/",
-  //   },
-  //   {
-  //     id: 3,
-  //     title: "Email Validator NPM Package",
-  //     description:
-  //       "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
-  //     image: npmLogo,
-  //     tags: ["React JS", "Node.js", "NPM", "Validation"],
-  //     github: "https://github.com/codingmastr/cmtk-email-validator",
-  //     webapp: "https://www.npmjs.com/package/cmtk-email-validator",
-  //   },
-  //   {
-  //     id: 4,
-  //     title: "Task Reminder Chrome Extension Tool",
-  //     description:
-  //       "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
+  //       "Design a system or device to improve the daily life of our new client.",
   //     image: taskremLogo,
-  //     tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-  //     github: "https://github.com/codingmastr/Task-Reminder-Tool",
+  //     tags: ["C++", "PCB Design", "Soldering", "Arduino Uno"],
+  //     github: "https://github.com/codingmastr/Task-Reminder-Tool", // Still need to add to github
   //     webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
   //   },
   //   {
-  //     id: 5,
-  //     title: "Webverse Digital",
+  //     id: 2,
+  //     title: "Snake Game",
   //     description:
-  //       "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
+  //       "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
+  //     image: csprepLogo,
+  //     tags: ["C++", "C", "OOD", "VSCode", "Git", "GitHub"],
+  //     github: "https://github.com/Gobind-Kailey/Snake-Game",
+  //    // webapp: "https://csprep.netlify.app/",
+  //   },
+  //   {
+  //     id: 3,
+  //     title: "BudgetFlyer",
+  //     description:
+  //       "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
+  //     image: movierecLogo,
+  //     tags: ["Python", "API", "VSCode", "Git", "GitHub"],
+  //     github: "https://github.com/Gobind-Kailey/Cheap-Flight-Finder-",
+     // // webapp: "https://movie-recommendation-app-jet.vercel.app/",
+  //   },
+  //   {
+  //     id: 4,
+  //     title: "Power in Community",
+  //     description:
+  //       "Designed a device to improve the daily life of our new client with Spina Bifida.",
+  //     image: npmLogo,
+  //     tags: ["Autodesk Inventor", "Protoyping", "ANSYS-Granta-EduPack", "3D Printing"],
+     // // github: "http://tiny.cc/Portfolio-Gobind-Kailey", Doesn't have a github link
+  //     webapp: "http://tiny.cc/Portfolio-Gobind-Kailey",
+  //   },
+  //   
+  //   {
+  //     id: 5,
+  //     title: "Revenge of Recycling System",
+  //     description:
+  //       "Designed a system for sorting and recycling containers of varying materials. This project was split into modeling and computing sub-teams working simultaneously.",
   //     image: webverLogo,
-  //     tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-  //     github: "https://github.com/codingmastr/Webverse-Digital",
-  //     webapp: "https://webversedigital.com/",
+  //     tags: ["Autodesk Inventor", "Protoyping", "ANSYS-Granta-EduPack", "Laser Printing"],
+  //    // github: "https://github.com/codingmastr/Webverse-Digital",  Doesn't have github link 
+  //     webapp: "http://tiny.cc/Portfolio-Gobind-Kailey",
   //   },
   //   {
   //     id: 6,
-  //     title: "Coding Master",
+  //     title: "Get a Grip",
   //     description:
-  //       "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
+  //       "Designed a system for securely transferring surgical instrument to an autoclave for sterilization. This project was split into computing and modeling sub-teams working simultaneously.",
   //     image: cmLogo,
-  //     tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-  //     github: "https://codingmasterweb.in/",
-  //     webapp: "https://codingmasterweb.in/",
+  //     tags: ["Python", "Quanser Interactive Labs", "ANSYS-Granta-EduPack"],
+  // //    github: "https://codingmasterweb.in/",    Doesn't have github link 
+  //     webapp: "http://tiny.cc/Portfolio-Gobind-Kailey",
   //   },
   //   {
   //     id: 7,
-  //     title: "Image Search App",
+  //     title: "Renewable Technology Challenge",
   //     description:
-  //       "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
+  //       "Designed a wind turbine to generate large amounts of electric power on a new wind farm in Wolfe Island near Kingston, Ontario. This wind farm will be an essential energy source for nearby cities.",
   //     image: imagesearchLogo,
-  //     tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
+  //     tags: ["Autdesk Inventor", "ANSYS-Granta-EduPack", "Objective Trees", Data analysis"],
   //     github: "https://github.com/codingmastr/Image-Search-App",
-  //     webapp: "https://imagsearch.netlify.app/",
+  //     webapp: "http://tiny.cc/Portfolio-Gobind-Kailey",
   //   },
   //   {
   //     id: 8,
