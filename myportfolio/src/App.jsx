@@ -8,8 +8,7 @@ import Skills from './components/Skills/Skills';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import BlurBlob from './BlurBlob'; // Importing BlurBlob component
-import Certificate from './components/Certificate/certificate'; // Example import, adjust as needed
-// import certificate from './components/Education/certificate.png'; // Example import, adjust as needed
+import Certifications from './components/Certification/Certification'; // Example import, adjust as needed
 
 
 const App = () => {
@@ -31,7 +30,7 @@ const App = () => {
         <Experience />
         <Project /> {/* Was originally written as Work, corrected here */}
         <Education />
-        <Certificate />
+        <Certifications/>
         <Contact />
         <Footer />
 
