@@ -42,7 +42,8 @@ import recyclingsystemLogo from './assets/recycling_system.webp';
 import getgripLogo from './assets/get_a_grip.webp';
 import renewableLogo from './assets/turbine.webp';
 
-
+// Certificate Section Logo's
+import certificateLogo from './assets/Udemy_C_Certificate.jpg';
 
 export const SkillsInfo = [
   
@@ -234,3 +235,15 @@ export const SkillsInfo = [
   //     webapp: "https://removeyourbg.netlify.app/",
   //   },
   ];  
+
+
+  export const certifications = [
+    {
+      id: 0,
+      title: "Udemy C Programming Bootcamp",
+      image: certificateLogo,
+      tags: ["C"],
+      github: "https://github.com/Gobind-Kailey/C-learning-", // add to github
+     // webapp: "https://githubprofiledetective.netlify.app/",
+    },
+  ]
