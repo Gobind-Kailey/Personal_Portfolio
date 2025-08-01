@@ -116,6 +116,22 @@ export const SkillsInfo = [
         "Adaptability",
       ],
     },
+    // {
+    //   id: 0,
+    //   img: subwaylogo,
+    //   role: "Subway Sandwich Artist",
+    //   company: "Subway",
+    //   date: "September 2024 - August 2025",
+    //   desc: "• Welcome customers with enthusiasm and satisfy customers to their needs. • Being an active listener and taking accurate orders while being efficient and answering all questions in detail. • Working well with a team and offering help with a positive attitude.• Memorizing all sandwich formulas for best customer service.• Providing exceptional Cashier Customer service.• Fast learner as I was able to quickly learn and adapt to Subway’s environment.Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
+    //   skills: [
+    //     "Problem Solving",
+    //     "Interpersonal Skills",
+    //     "Teamwork",
+    //     "Leadership",
+    //     "Time Management",
+    //     "Adaptability",
+    //   ],
+    // },
     
     
   ];
