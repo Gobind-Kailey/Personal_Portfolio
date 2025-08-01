@@ -19,7 +19,7 @@ import systemverilogLogo from './assets/SystemVerilog.png';
 import matlabLogo from './assets/Matlab-Dark.svg';
 import modelsimLogo from './assets/modelsim.jpg';
 import quartusLogo from './assets/Quartus_Prime.png';
-import intellijLogo from './assets/intellij.png';
+import intellijLogo from './assets/Intellij.png';
 import stm32Logo from './assets/stm32.svg';
 import kicadLogo from './assets/kicad.jpeg';
 import keilLogo from './assets/keil.jpeg';
