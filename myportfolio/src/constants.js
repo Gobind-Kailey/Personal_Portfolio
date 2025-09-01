@@ -15,6 +15,7 @@ import vhdlLogo from './assets/VHDL.png';
 import verilogLogo from './assets/Verilog.png';
 import pycharmLogo from './assets/PyCharm-Dark.svg';
 import systemverilogLogo from './assets/SystemVerilog.png';
+import flightLogo from './assets/flight_finder.webp';
 
 import matlabLogo from './assets/Matlab-Dark.svg';
 import modelsimLogo from './assets/modelsim.jpg';
@@ -205,7 +206,7 @@ export const SkillsInfo = [
       title: "BudgetFlyer",
       description:
         "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-      image: cheap_flight_logo,
+      image: flightLogo,
       tags: ["Python", "API", "VSCode", "Git", "GitHub"],
       github: "https://github.com/Gobind-Kailey/Cheap-Flight-Finder-",
      // webapp: "https://movie-recommendation-app-jet.vercel.app/",
