@@ -215,7 +215,7 @@ export const SkillsInfo = [
       title: "Power in Community",
       description:
         "Designed a device to improve the daily life of our new client with Spina Bifida." + 
-        "Click on 'View Live' for more details.",
+        " Click on 'View Live' for more details.",
       image: communityLogo,
       tags: ["Autodesk Inventor", "Protoyping", "ANSYS-Granta-EduPack", "3D Printing"],
      // github: "http://tiny.cc/Portfolio-Gobind-Kailey", Doesn't have a github link
@@ -226,7 +226,8 @@ export const SkillsInfo = [
       id: 6,
       title: "Recycling System",
       description:
-        "Designed a system for sorting and recycling containers of varying materials. This project was split into modeling and computing sub-teams working simultaneously.",
+        "Designed a system for sorting and recycling containers of varying materials. This project was split into modeling and computing sub-teams working simultaneously." + 
+        " Click on 'View Live' for more details.",
       image: recyclingsystemLogo,
       tags: ["Autodesk Inventor", "Protoyping", "ANSYS-Granta-EduPack", "Laser Printing"],
      // github: "https://github.com/codingmastr/Webverse-Digital",  Doesn't have github link 
@@ -236,7 +237,8 @@ export const SkillsInfo = [
       id: 7,
       title: "Get a Grip",
       description:
-        "Designed a system for securely transferring surgical instrument to an autoclave for sterilization. This project was split into computing and modeling sub-teams working simultaneously.",
+        "Designed a system for securely transferring surgical instrument to an autoclave for sterilization. This project was split into computing and modeling sub-teams working simultaneously." + 
+        " Click on 'View Live' for more details.",
       image: getgripLogo,
       tags: ["Python", "Quanser Interactive Labs", "ANSYS-Granta-EduPack"],
   //    github: "https://codingmasterweb.in/",    Doesn't have github link 
@@ -246,7 +248,8 @@ export const SkillsInfo = [
       id: 8,
       title: "Renewable Technology Challenge",
       description:
-        "Designed a wind turbine to generate large amounts of electric power on a new wind farm in Wolfe Island near Kingston, Ontario. This wind farm will be an essential energy source for nearby cities.",
+        "Designed a wind turbine to generate large amounts of electric power on a new wind farm in Wolfe Island near Kingston, Ontario. This wind farm will be an essential energy source for nearby cities." + 
+        " Click on 'View Live' for more details.",
       image: renewableLogo,
       tags: ["Autdesk Inventor", "ANSYS-Granta-EduPack", "Objective Trees", "Data analysis"],
       github: "https://github.com/codingmastr/Image-Search-App",
