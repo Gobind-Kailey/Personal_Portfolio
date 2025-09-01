@@ -174,7 +174,7 @@ export const SkillsInfo = [
       id: 1,
       title: "Embedded Spatial Mapping System",
       description:
-        "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.\n Click on 'View Live' for more details.",
+        "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
       image: microcontrollerLogo,
       tags: ["Python", "C", "Microcontroller", "Keil uVision"],
       github: "https://github.com/Gobind-Kailey/Microprocesser-Systems-Project-", // add to github
@@ -214,7 +214,8 @@ export const SkillsInfo = [
       id: 5,
       title: "Power in Community",
       description:
-        "Designed a device to improve the daily life of our new client with Spina Bifida.",
+        "Designed a device to improve the daily life of our new client with Spina Bifida." + 
+        "Click on 'View Live' for more details.",
       image: communityLogo,
       tags: ["Autodesk Inventor", "Protoyping", "ANSYS-Granta-EduPack", "3D Printing"],
      // github: "http://tiny.cc/Portfolio-Gobind-Kailey", Doesn't have a github link
