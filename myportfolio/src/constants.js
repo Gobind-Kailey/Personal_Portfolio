@@ -185,7 +185,7 @@ export const SkillsInfo = [
       id: 2,
       title: "Arduino Line Follower Robot",
       description:
-        "Design a system or device to improve the daily life of our new client.",
+        "Design an Arduino-powered robot capable of executing precise square-shaped movements and accurately following a line using sensors.",
       image: arduino_line_follower_Logo,
       tags: ["C++", "PCB Design", "Soldering", "Arduino Uno"],
       github: "https://github.com/Gobind-Kailey/Arudino-Line-Follower", 
@@ -195,7 +195,7 @@ export const SkillsInfo = [
       id: 3,
       title: "Snake Game",
       description:
-        "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
+        "Project to improve my C and C++ programming skills while gaining better understanding of OOD (Object Orienteded Design).",
       image: snakeLogo,
       tags: ["C++", "C", "OOD", "VSCode", "Git", "GitHub"],
       github: "https://github.com/Gobind-Kailey/Snake-Game",
@@ -205,7 +205,7 @@ export const SkillsInfo = [
       id: 4,
       title: "BudgetFlyer",
       description:
-        "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
+        "Find yourself a cheap flight!",
       image: flightLogo,
       tags: ["Python", "API", "VSCode", "Git", "GitHub"],
       github: "https://github.com/Gobind-Kailey/Cheap-Flight-Finder-",
