@@ -162,6 +162,16 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
+      title: "Custom PCB Development & Layout",
+      description:
+        "Designed a PCB to learn the basics of PCB layout, schematic capture, and manufacturing.",
+      image: pcbLogo,
+      tags: ["KiCad", "PCB Design", "STM32CubeIDE"],
+      github: "https://github.com/Gobind-Kailey/PCB-Designing-",
+      //webapp: "https://removeyourbg.netlify.app/",
+    },
+    {
+      id: 1,
       title: "Embedded Spatial Mapping System",
       description:
         "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
@@ -171,7 +181,7 @@ export const SkillsInfo = [
      // webapp: "https://githubprofiledetective.netlify.app/",
     },
     {
-      id: 1,
+      id: 2,
       title: "Arduino Line Follower Robot",
       description:
         "Design a system or device to improve the daily life of our new client.",
@@ -181,7 +191,7 @@ export const SkillsInfo = [
       webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
     },
     {
-      id: 2,
+      id: 3,
       title: "Snake Game",
       description:
         "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
@@ -191,7 +201,7 @@ export const SkillsInfo = [
      // webapp: "https://csprep.netlify.app/",
     },
     {
-      id: 3,
+      id: 4,
       title: "BudgetFlyer",
       description:
         "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
@@ -201,7 +211,7 @@ export const SkillsInfo = [
      // webapp: "https://movie-recommendation-app-jet.vercel.app/",
     },
     {
-      id: 4,
+      id: 5,
       title: "Power in Community",
       description:
         "Designed a device to improve the daily life of our new client with Spina Bifida.",
@@ -212,7 +222,7 @@ export const SkillsInfo = [
     },
     
     {
-      id: 5,
+      id: 6,
       title: "Recycling System",
       description:
         "Designed a system for sorting and recycling containers of varying materials. This project was split into modeling and computing sub-teams working simultaneously.",
@@ -222,7 +232,7 @@ export const SkillsInfo = [
       webapp: "http://tiny.cc/Portfolio-Gobind-Kailey",
     },
     {
-      id: 6,
+      id: 7,
       title: "Get a Grip",
       description:
         "Designed a system for securely transferring surgical instrument to an autoclave for sterilization. This project was split into computing and modeling sub-teams working simultaneously.",
@@ -232,7 +242,7 @@ export const SkillsInfo = [
       webapp: "http://tiny.cc/Portfolio-Gobind-Kailey",
     },
     {
-      id: 7,
+      id: 8,
       title: "Renewable Technology Challenge",
       description:
         "Designed a wind turbine to generate large amounts of electric power on a new wind farm in Wolfe Island near Kingston, Ontario. This wind farm will be an essential energy source for nearby cities.",
@@ -241,16 +251,7 @@ export const SkillsInfo = [
       github: "https://github.com/codingmastr/Image-Search-App",
       webapp: "http://tiny.cc/Portfolio-Gobind-Kailey",
     },
-    {
-      id: 8,
-      title: "Custom PCB Development & Layout",
-      description:
-        "Designed a PCB to learn the basics of PCB layout, schematic capture, and manufacturing.",
-      image: pcbLogo,
-      tags: ["KiCad", "PCB Design", "STM32CubeIDE"],
-      github: "https://github.com/Gobind-Kailey/PCB-Designing-",
-      //webapp: "https://removeyourbg.netlify.app/",
-    },
+    
   ];  
 
 
