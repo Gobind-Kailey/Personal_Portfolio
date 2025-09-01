@@ -41,6 +41,7 @@ import communityLogo from './assets/power_in_community.webp';
 import recyclingsystemLogo from './assets/recycling_system.webp';
 import getgripLogo from './assets/get_a_grip.webp';
 import renewableLogo from './assets/turbine.webp';
+import pcbLogo from './assets/Custom_PCB1.png';
 
 // Certificate Section Logo's
 import certificateLogo from './assets/Udemy_C_Certificate.jpg';
@@ -242,13 +243,13 @@ export const SkillsInfo = [
     },
     {
       id: 8,
-      title: "Image Background Remover",
+      title: "Custom PCB Development & Layout",
       description:
-        "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
-      image: removebgLogo,
-      tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Background-Remover",
-      webapp: "https://removeyourbg.netlify.app/",
+        "Designed a PCB to learn the basics of PCB layout, schematic capture, and manufacturing.",
+      image: pcbLogo,
+      tags: ["KiCad", "PCB Design", "STM32CubeIDE"],
+      github: "https://github.com/Gobind-Kailey/PCB-Designing-",
+      //webapp: "https://removeyourbg.netlify.app/",
     },
   ];  
 
