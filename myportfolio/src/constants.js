@@ -177,7 +177,7 @@ export const SkillsInfo = [
         "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
       image: microcontrollerLogo,
       tags: ["Python", "C", "Microcontroller", "Keil uVision"],
-      github: "https://github.com/Gobind-Kailey/Microprocesser-Systems-Project-", // add to github
+      github: "https://github.com/Gobind-Kailey/Microprocesser-Systems-Project-",
      // webapp: "https://githubprofiledetective.netlify.app/",
     },
     {
@@ -187,8 +187,8 @@ export const SkillsInfo = [
         "Design a system or device to improve the daily life of our new client.",
       image: arduino_line_follower_Logo,
       tags: ["C++", "PCB Design", "Soldering", "Arduino Uno"],
-      github: "https://github.com/codingmastr/Task-Reminder-Tool", // Still need to add to github
-      webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
+      github: "https://github.com/Gobind-Kailey/Arudino-Line-Follower", 
+      webapp: "http://tiny.cc/Portfolio-Gobind-Kailey",
     },
     {
       id: 3,
