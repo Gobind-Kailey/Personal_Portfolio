@@ -174,7 +174,7 @@ export const SkillsInfo = [
       id: 1,
       title: "Embedded Spatial Mapping System",
       description:
-        "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
+        "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.\n Click on 'View Live' for more details.",
       image: microcontrollerLogo,
       tags: ["Python", "C", "Microcontroller", "Keil uVision"],
       github: "https://github.com/Gobind-Kailey/Microprocesser-Systems-Project-", // add to github
