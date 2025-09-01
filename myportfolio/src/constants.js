@@ -55,7 +55,7 @@ export const SkillsInfo = [
         { name: 'C++', logo: cppLogo },
         { name: 'VHDL', logo: vhdlLogo },
         { name: 'Verilog', logo: verilogLogo },
-        { name: 'System Verilog', logo: systemverilogLogo },
+        // { name: 'System Verilog', logo: systemverilogLogo },
         { name: 'Assembly', logo: assemblyLogo },
 
     ],
@@ -166,7 +166,7 @@ export const SkillsInfo = [
         "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
       image: microcontrollerLogo,
       tags: ["Python", "C", "Microcontroller", "Keil uVision"],
-      github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS", // add to github
+      github: "https://github.com/Gobind-Kailey/Microprocesser-Systems-Project-", // add to github
      // webapp: "https://githubprofiledetective.netlify.app/",
     },
     {
@@ -240,16 +240,16 @@ export const SkillsInfo = [
       github: "https://github.com/codingmastr/Image-Search-App",
       webapp: "http://tiny.cc/Portfolio-Gobind-Kailey",
     },
-  //   {
-  //     id: 8,
-  //     title: "Image Background Remover",
-  //     description:
-  //       "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
-  //     image: removebgLogo,
-  //     tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-  //     github: "https://github.com/codingmastr/Image-Background-Remover",
-  //     webapp: "https://removeyourbg.netlify.app/",
-  //   },
+    {
+      id: 8,
+      title: "Image Background Remover",
+      description:
+        "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
+      image: removebgLogo,
+      tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
+      github: "https://github.com/codingmastr/Image-Background-Remover",
+      webapp: "https://removeyourbg.netlify.app/",
+    },
   ];  
 
 
