@@ -48,7 +48,7 @@ I'm passionate about bridging the gap between hardware and software to build sys
 
 I'm currently building my skills through hands-on side projects involving FPGA programming and low-level hardware control. I thrive in competitive, fast-paced environments and set ambitious goals to continually grow as an engineer.
 
-Outside of academics, I love going to the gym and playing basketball. I also enjoy connecting with people through shared interests and meaningful collaboration.
+Outside of academics, I love going to the gym and climbing. I also enjoy connecting with people through shared interests and meaningful collaboration.
           </p>
           {/* Resume Button */}
           <a
