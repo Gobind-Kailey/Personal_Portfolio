@@ -205,7 +205,7 @@ export const SkillsInfo = [
       id: 4,
       title: "BudgetFlyer",
       description:
-        "Find yourself a cheap flight!",
+        "Utilized the 'Sheety' API for retrieving the Google Sheet data, The Amadeous API for finding the flights, and Twilio API for messaging cheap flights.",
       image: flightLogo,
       tags: ["Python", "API", "VSCode", "Git", "GitHub"],
       github: "https://github.com/Gobind-Kailey/Cheap-Flight-Finder-",
