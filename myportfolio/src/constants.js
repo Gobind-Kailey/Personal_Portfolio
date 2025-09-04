@@ -170,7 +170,7 @@ export const SkillsInfo = [
         "Learning how to code in Verilog and VHDL through QuartusPrime and simulating in Questa and live FPGA board.",
       image: fpgaLogo,
       tags: ["Verilog", "VHDL", "QuartusPrime", "Modelsim", "FPGA (MAX10)"],
-      github: "https://github.com/Gobind-Kailey/FPGA-",
+      github: "https://github.com/Gobind-Kailey/FPGA_10M50DAF484C7G",
       // webapp: "http://tiny.cc/Portfolio-Gobind-Kailey",
     },
     {
