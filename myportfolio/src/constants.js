@@ -277,14 +277,6 @@ export const SkillsInfo = [
 
   export const certifications = [
     {
-      id: 2,
-      title: "Udemy C Programming Bootcamp",
-      image: certificateLogo,
-      tags: ["C"],
-      github: "https://github.com/Gobind-Kailey/C-learning-", // add to github
-     // webapp: "https://githubprofiledetective.netlify.app/",
-    },
-    {
       id: 0,
       title: "ROS2 (Foxy-Humble) For Beginners I: Basics, Motion & Lasers",
       image: ros2_certificateLogo,
@@ -292,7 +284,7 @@ export const SkillsInfo = [
       // github: "https://github.com/Gobind-Kailey/C-learning-", // add to github
      // webapp: "https://githubprofiledetective.netlify.app/",
     },
-    {
+     {
       id: 1,
       title: "ROS 2 Nav2 [Navigation 2 Stack] - with SLAM and Navigation",
       image: nav2_certificateLogo,
@@ -300,4 +292,13 @@ export const SkillsInfo = [
       // github: "https://github.com/Gobind-Kailey/C-learning-", // add to github
      // webapp: "https://githubprofiledetective.netlify.app/",
     },
+    {
+      id: 2,
+      title: "Udemy C Programming Bootcamp",
+      image: certificateLogo,
+      tags: ["C"],
+      github: "https://github.com/Gobind-Kailey/C-learning-", // add to github
+     // webapp: "https://githubprofiledetective.netlify.app/",
+    },
+   
   ]
