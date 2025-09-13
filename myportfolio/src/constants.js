@@ -25,6 +25,7 @@ import kicadLogo from './assets/kicad.jpeg';
 import keilLogo from './assets/keil.jpeg';
 import assemblyLogo from './assets/assembly.png';
 import arduinoLogo from './assets/Arduino.svg';
+import ubuntuLogo from './assets/Ubuntu.png';
 
 // Experience Section Logo's
 import subwaylogo from './assets/subway.png';
@@ -83,6 +84,7 @@ export const SkillsInfo = [
       { name: 'Git', logo: gitLogo },
       { name: 'GitHub', logo: githubLogo },
       { name: 'VS Code', logo: vscodeLogo },
+      { name: 'Linux (Ubuntu)', logo: ubuntuLogo },
       { name: 'PyCharm', logo: pycharmLogo },
       {name: 'IntelliJ', logo: intellijLogo},
       { name: 'MATLAB', logo: matlabLogo },
