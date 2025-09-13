@@ -37,7 +37,7 @@ import assumptionLogo from './assets/Assumption.png';
 import microcontrollerLogo from './assets/microcontroller.jpg';
 import arduino_line_follower_Logo from './assets/arduino_line_follower.webp';
 import snakeLogo from './assets/snake-game.png';
-import cheap_flight_logo from './assets/cheap_flight.jpg';
+// import cheap_flight_logo from './assets/cheap_flight.jpg';
 import communityLogo from './assets/power_in_community.webp';
 import recyclingsystemLogo from './assets/recycling_system.webp';
 import getgripLogo from './assets/get_a_grip.webp';
@@ -85,11 +85,11 @@ export const SkillsInfo = [
       { name: 'GitHub', logo: githubLogo },
       { name: 'VS Code', logo: vscodeLogo },
       { name: 'Linux (Ubuntu)', logo: ubuntuLogo },
+      { name: 'Quartus Prime', logo: quartusLogo },
+      { name: 'Modelsim', logo: modelsimLogo },
       { name: 'PyCharm', logo: pycharmLogo },
       {name: 'IntelliJ', logo: intellijLogo},
       { name: 'MATLAB', logo: matlabLogo },
-      { name: 'Modelsim', logo: modelsimLogo },
-      { name: 'Quartus Prime', logo: quartusLogo },
       { name: 'STM32CubeIDE', logo: stm32Logo },
       { name: 'KiCad', logo: kicadLogo },
       { name: 'Keil uVision', logo: keilLogo },
