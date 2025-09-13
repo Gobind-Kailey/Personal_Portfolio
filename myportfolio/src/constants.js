@@ -25,7 +25,7 @@ import kicadLogo from './assets/kicad.jpeg';
 import keilLogo from './assets/keil.jpeg';
 import assemblyLogo from './assets/assembly.png';
 import arduinoLogo from './assets/Arduino.svg';
-import ubuntuLogo from './assets/Ubuntu.webp';
+import ubuntuLogo from './assets/ubuntu.webp';
 
 // Experience Section Logo's
 import subwaylogo from './assets/subway.png';
