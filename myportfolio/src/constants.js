@@ -48,6 +48,8 @@ import fpgaLogo from './assets/FPFA_MAX10.jpg';
 
 // Certificate Section Logo's
 import certificateLogo from './assets/Udemy_C_Certificate.jpg';
+import ros2_certificateLogo from './assets/Udemy_ROS2_Certificate.jpg';
+import nav2_certificateLogo from './assets/Udemy_Nav2_Certificate.jpg';
 
 export const SkillsInfo = [
   
@@ -59,7 +61,7 @@ export const SkillsInfo = [
         { name: 'C++', logo: cppLogo },
         { name: 'VHDL', logo: vhdlLogo },
         { name: 'Verilog', logo: verilogLogo },
-        // { name: 'System Verilog', logo: systemverilogLogo },
+        { name: 'System Verilog', logo: systemverilogLogo },
         { name: 'Assembly', logo: assemblyLogo },
 
     ],
@@ -280,6 +282,22 @@ export const SkillsInfo = [
       image: certificateLogo,
       tags: ["C"],
       github: "https://github.com/Gobind-Kailey/C-learning-", // add to github
+     // webapp: "https://githubprofiledetective.netlify.app/",
+    },
+    {
+      id: 1,
+      title: "ROS2 (Foxy-Humble) For Beginners I: Basics, Motion & Lasers",
+      image: ros2_certificateLogo,
+      tags: ["Linux (Ubuntu 22.04)", "ROS2", "Python", "C++"],
+      // github: "https://github.com/Gobind-Kailey/C-learning-", // add to github
+     // webapp: "https://githubprofiledetective.netlify.app/",
+    },
+    {
+      id: 2,
+      title: "Udemy C Programming Bootcamp",
+      image: nav2_certificateLogo,
+      tags: ["Linux (Ubuntu 22.04)", "ROS2", "NAV2", "SLAM", "Python"],
+      // github: "https://github.com/Gobind-Kailey/C-learning-", // add to github
      // webapp: "https://githubprofiledetective.netlify.app/",
     },
   ]
