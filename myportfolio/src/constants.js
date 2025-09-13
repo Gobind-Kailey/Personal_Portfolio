@@ -277,7 +277,7 @@ export const SkillsInfo = [
 
   export const certifications = [
     {
-      id: 0,
+      id: 2,
       title: "Udemy C Programming Bootcamp",
       image: certificateLogo,
       tags: ["C"],
@@ -285,7 +285,7 @@ export const SkillsInfo = [
      // webapp: "https://githubprofiledetective.netlify.app/",
     },
     {
-      id: 1,
+      id: 0,
       title: "ROS2 (Foxy-Humble) For Beginners I: Basics, Motion & Lasers",
       image: ros2_certificateLogo,
       tags: ["Linux (Ubuntu 22.04)", "ROS2", "Python", "C++"],
@@ -293,8 +293,8 @@ export const SkillsInfo = [
      // webapp: "https://githubprofiledetective.netlify.app/",
     },
     {
-      id: 2,
-      title: "Udemy C Programming Bootcamp",
+      id: 1,
+      title: "ROS 2 Nav2 [Navigation 2 Stack] - with SLAM and Navigation",
       image: nav2_certificateLogo,
       tags: ["Linux (Ubuntu 22.04)", "ROS2", "NAV2", "SLAM", "Python"],
       // github: "https://github.com/Gobind-Kailey/C-learning-", // add to github
