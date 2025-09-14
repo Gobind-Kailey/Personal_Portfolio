@@ -45,6 +45,7 @@ import renewableLogo from './assets/turbine.webp';
 import pcbLogo from './assets/Custom_PCB1.png';
 import flightLogo from './assets/flight_finder.webp';
 import fpgaLogo from './assets/FPFA_MAX10.jpg';
+import ros2Logo from './assets/ros2_maze.jpg'
 
 
 // Certificate Section Logo's
@@ -167,6 +168,16 @@ export const SkillsInfo = [
   
 
   export const projects = [
+    {
+      id: 0,
+      title: "ROS2 TurtleBot3 Maze Navigation",
+      description:
+        "Created a custom maze world in Gazebo and used a TurtleBot3 robot to map and autonomously navigate it using SLAM (Cartographer) and Nav2.",
+      image: ros2Logo,
+      tags: ["Linux (Ubuntu 22.04)", "ROS2", "NAV2", "SLAM", "Python"],
+      // github: "https://github.com/Gobind-Kailey/FPGA_10M50DAF484C7G", Still need to add this to gtithub
+      // webapp: "http://tiny.cc/Portfolio-Gobind-Kailey",
+    },
     {
       id: 0,
       title: "FGPA Mini Projects",
