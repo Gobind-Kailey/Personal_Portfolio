@@ -179,7 +179,7 @@ export const SkillsInfo = [
       // webapp: "http://tiny.cc/Portfolio-Gobind-Kailey",
     },
     {
-      id: 0,
+      id: 1,
       title: "FGPA Mini Projects",
       description:
         "Learning how to code in Verilog and VHDL through QuartusPrime and simulating in Questa and live FPGA board.",
@@ -189,7 +189,7 @@ export const SkillsInfo = [
       // webapp: "http://tiny.cc/Portfolio-Gobind-Kailey",
     },
     {
-      id: 1,
+      id: 2,
       title: "Custom PCB Development & Layout",
       description:
         "Designed a PCB to learn the basics of PCB layout, schematic capture, and manufacturing.",
@@ -199,7 +199,7 @@ export const SkillsInfo = [
       //webapp: "https://removeyourbg.netlify.app/",
     },
     {
-      id: 2,
+      id: 3,
       title: "Embedded Spatial Mapping System",
       description:
         "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
@@ -209,7 +209,7 @@ export const SkillsInfo = [
      // webapp: "https://githubprofiledetective.netlify.app/",
     },
     {
-      id: 3,
+      id: 4,
       title: "Arduino Line Follower Robot",
       description:
         "Design an Arduino-powered robot capable of executing precise square-shaped movements and accurately following a line using sensors.",
@@ -219,7 +219,7 @@ export const SkillsInfo = [
       webapp: "http://tiny.cc/Portfolio-Gobind-Kailey",
     },
     {
-      id: 4,
+      id: 5,
       title: "Snake Game",
       description:
         "Project to improve my C and C++ programming skills while gaining better understanding of OOD (Object Orienteded Design).",
@@ -229,7 +229,7 @@ export const SkillsInfo = [
      // webapp: "https://csprep.netlify.app/",
     },
     {
-      id: 5,
+      id: 6,
       title: "BudgetFlyer",
       description:
         "Utilized the 'Sheety' API for retrieving the Google Sheet data, The Amadeous API for finding the flights, and Twilio API for messaging cheap flights.",
@@ -239,7 +239,7 @@ export const SkillsInfo = [
      // webapp: "https://movie-recommendation-app-jet.vercel.app/",
     },
     {
-      id: 6,
+      id: 7,
       title: "Power in Community",
       description:
         "Designed a device to improve the daily life of our new client with Spina Bifida." + 
@@ -251,7 +251,7 @@ export const SkillsInfo = [
     },
     
     {
-      id: 7,
+      id: 8,
       title: "Recycling System",
       description:
         "Designed a system for sorting and recycling containers of varying materials. This project was split into modeling and computing sub-teams working simultaneously." + 
@@ -262,7 +262,7 @@ export const SkillsInfo = [
       webapp: "http://tiny.cc/Portfolio-Gobind-Kailey",
     },
     {
-      id: 8,
+      id: 9,
       title: "Get a Grip",
       description:
         "Designed a system for securely transferring surgical instrument to an autoclave for sterilization. This project was split into computing and modeling sub-teams working simultaneously." + 
@@ -273,7 +273,7 @@ export const SkillsInfo = [
       webapp: "http://tiny.cc/Portfolio-Gobind-Kailey",
     },
     {
-      id: 9,
+      id: 10,
       title: "Renewable Technology Challenge",
       description:
         "Designed a wind turbine to generate large amounts of electric power on a new wind farm in Wolfe Island near Kingston, Ontario. This wind farm will be an essential energy source for nearby cities." + 
