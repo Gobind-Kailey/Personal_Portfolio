@@ -52,7 +52,7 @@ Outside of academics, I love going to the gym and climbing. I also enjoy connect
           </p>
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1nySTq5AcKHxsIKb121QB5sYHBmrdm3WO/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1VItHNc3NEheJNAKQirndyvw5Nc0TjpSx/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
