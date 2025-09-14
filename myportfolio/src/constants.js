@@ -166,7 +166,7 @@ export const SkillsInfo = [
     },
   ];
   
-
+// 11 projects
   export const projects = [
     {
       id: 0,
@@ -175,7 +175,7 @@ export const SkillsInfo = [
         "Created a custom maze world in Gazebo and used a TurtleBot3 robot to map and autonomously navigate it using SLAM (Cartographer) and Nav2.",
       image: ros2Logo,
       tags: ["Linux (Ubuntu 22.04)", "ROS2", "NAV2", "SLAM", "Python"],
-      github:"https://github.com/Gobind-Kailey/ROS2-TurtleBot3-Maze-Navigation", 
+      github:"https://github.com/Gobind-Kailey/ROS2-TurtleBot3-Maze-Navigation",  
       // webapp: "http://tiny.cc/Portfolio-Gobind-Kailey",
     },
     {
