@@ -66,7 +66,7 @@ const Certificate = () => {
       {/* Modal */}
       {selectedProject && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-90 p-4">
-          <div className="bg-gray-900 rounded-xl shadow-2xl lg:w-full w-[90%] max-w-3xl overflow-y-auto max-h-[90vh] relative">
+          <div className="bg-gray-900 rounded-xl shadow-2xl w-[90%] max-w-3xl relative">
             <div className="flex justify-end p-4">
               <button
                 onClick={handleCloseModal}
@@ -76,22 +76,23 @@ const Certificate = () => {
               </button>
             </div>
 
-            <div className="flex flex-col">
-              <div className="w-full flex justify-center bg-gray-900 px-4">
+            <div className="flex flex-col items-center">
+              <div className="bg-gray-900 px-4 flex justify-center">
                 <img
                   src={selectedProject.image}
                   alt={selectedProject.title}
-                  className="max-w-full max-h-[70vh] object-contain mx-auto rounded-xl shadow-2xl"
+                  className="mx-auto rounded-xl shadow-2xl 
+                             max-w-[400px] max-h-[300px] object-contain"
                 />
               </div>
               <div className="lg:p-8 p-6">
-                <h3 className="lg:text-3xl font-bold text-white mb-4 text-md">
+                <h3 className="lg:text-3xl font-bold text-white mb-4 text-md text-center">
                   {selectedProject.title}
                 </h3>
-                <p className="text-gray-400 mb-6 lg:text-base text-xs">
+                <p className="text-gray-400 mb-6 lg:text-base text-xs text-center">
                   {selectedProject.description}
                 </p>
-                <div className="flex flex-wrap gap-2 mb-6">
+                <div className="flex flex-wrap gap-2 justify-center mb-6">
                   {selectedProject.tags.map((tag, index) => (
                     <span
                       key={index}
@@ -101,12 +102,12 @@ const Certificate = () => {
                     </span>
                   ))}
                 </div>
-                <div className="flex gap-4">
+                <div className="flex justify-center gap-4">
                   <a
                     href={selectedProject.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-1/2 bg-purple-600 hover:bg-purple-800 text-white lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
+                    className="bg-purple-600 hover:bg-purple-800 text-white lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
                   >
                     View Code
                   </a>
