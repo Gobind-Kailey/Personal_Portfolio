@@ -110,26 +110,32 @@ export const SkillsInfo = [
   },
 ];
 
-  export const experiences = [
-    {
-      id: 0,
-      img: mars_rover_logo,
-      role: "Software Engineer",
-      company: "McMaster Mars Rover Team",
-      date: "September 2025 - Present",
-      desc: "",
-      skills: [ 
-        "Linux",
-        "Python",
-        "C/C++", 
-        "ROS2", 
-        "SLAM", 
-        "Nav2",
-        "Interpersonal Skills",
-        "Teamwork",
-        "Time Management",
-      ],
-    },
+export const experiences = [
+  {
+    id: 0,
+    img: mars_rover_logo,
+    role: "Software Engineer",
+    company: "McMaster Mars Rover Team",
+    date: "September 2025 - Present",
+    desc: [
+      "Contributing to the development of autonomous navigation and control software for the international Mars Rover competition, working with a multidisciplinary engineering team.",
+      "Implementing and testing ROS2-based software nodes for real-time sensing, motion control, and system integration across hardware subsystems.",
+      "Collaborating in a team-driven development environment, using Git/GitHub for version control, code reviews, and continuous integration practices."
+    ],
+    skills: [ 
+      "Linux",
+      "Python",
+      "C/C++", 
+      "ROS2", 
+      "SLAM", 
+      "Nav2",
+      "Interpersonal Skills",
+      "Teamwork",
+      "Time Management",
+    ],
+  },
+
+
     {
       id: 1,
       img: subwaylogo,
