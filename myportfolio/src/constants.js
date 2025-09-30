@@ -29,7 +29,7 @@ import ubuntuLogo from './assets/ubuntu.webp';
 
 // Experience Section Logo's
 import subwaylogo from './assets/subway.png';
-import mar_rover_logo from './assets/mars_rover.png'
+import mars_rover_logo from './assets/mars_rover.png'
 
 // Education Section Logo's
 import mcmasterLogo from './assets/Uni_mcmaster_logo.svg.png';
@@ -112,7 +112,7 @@ export const SkillsInfo = [
 
   export const experiences = [
     {
-      id: 0,
+      id: 1,
       img: subwaylogo,
       role: "Subway Sandwich Artist",
       company: "Subway",
@@ -128,8 +128,8 @@ export const SkillsInfo = [
       ],
     },
     {
-      id: 1,
-      img: mar_rover_logo,
+      id: 0,
+      img: mars_rover_logo,
       role: "Software Engineer",
       company: "McMaster Mars Rover Team",
       date: "September 2025 - Present",
