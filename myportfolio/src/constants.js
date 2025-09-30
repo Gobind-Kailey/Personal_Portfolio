@@ -125,11 +125,9 @@ export const SkillsInfo = [
         "ROS2", 
         "SLAM", 
         "Nav2",
-        "Problem Solving",
         "Interpersonal Skills",
         "Teamwork",
         "Time Management",
-        "Adaptability",
       ],
     },
     {
