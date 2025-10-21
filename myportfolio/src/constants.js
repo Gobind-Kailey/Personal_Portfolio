@@ -156,7 +156,7 @@ export const SkillsInfo = [
       school: "McMaster University, Hamilton",
       date: "September 2023 - April 2027",
       // grade: "3.6/4.0 CGPA",
-      desc: "I am currently pursuing my Bachelor's degree in Computer Engineering at McMaster University, Canada. My coursework includes advanced topics in Digital Systems Design (3DQ5), Logic Design, Microprocessor Systems Project, Software Development, and analog circuits and transistors",
+      desc: "I am currently pursuing my Bachelor's degree in Computer Engineering at McMaster University, Canada. My coursework includes advanced topics in Digital Systems Design (3DQ5), Logic Design, Microprocessor Systems Project, Software Development, Analog Circuits and Transistors.",
       degree: "Bachelor of Engineering - B.Eng (Computer Engineering)",
     },
     {
