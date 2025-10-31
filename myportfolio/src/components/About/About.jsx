@@ -67,7 +67,7 @@ Outside of academics, I love going to the gym and climbing. I also enjoy connect
           >
             <img
               src={profileImage}
-              alt="Tarun Kaushik"
+              alt="Gobind Kailey"
               className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
             />
           </Tilt>
