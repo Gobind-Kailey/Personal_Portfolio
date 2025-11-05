@@ -44,12 +44,11 @@ const About = () => {
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
             Hi, I'm Gobind Kailey, a third-year Computer Engineering Co-op student at McMaster University.
 
-I'm passionate about bridging the gap between hardware and software to build systems that are both innovative and practical. My interests include embedded systems, FPGA development (Verilog), PCB design, and hardware-software integration.
+I'm passionate about bridging the gap between hardware and software to build systems that are both innovative and practical. My interests include Hardware Design Verification, ASIC Design, and Digital System Design. 
 
 I'm currently building my skills through hands-on side projects involving FPGA programming and low-level hardware control. I thrive in competitive, fast-paced environments and set ambitious goals to continually grow as an engineer.
 
 Outside of academics, I love going to the gym and climbing. I also enjoy connecting with people through shared interests and meaningful collaboration.
-          </p>
           {/* Resume Button */}
           
         </div>
