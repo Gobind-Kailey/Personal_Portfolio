@@ -15,6 +15,7 @@ import vhdlLogo from './assets/VHDL.png';
 import verilogLogo from './assets/Verilog.png';
 import pycharmLogo from './assets/PyCharm-Dark.svg';
 import systemverilogLogo from './assets/SystemVerilog.png';
+import perlLogo from './assets/perl.png'; 
 
 import matlabLogo from './assets/Matlab-Dark.svg';
 import modelsimLogo from './assets/modelsim.jpg';
@@ -76,6 +77,7 @@ export const SkillsInfo = [
       { name: 'Python', logo: pythonLogo },
       { name: 'C', logo: cLogo },
       { name: 'C++', logo: cppLogo },
+      { name: 'Perl', logo: perlLogo },
       { name: 'Java', logo: javaLogo },
       { name: 'R', logo: RLogo },
       
