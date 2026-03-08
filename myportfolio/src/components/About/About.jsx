@@ -1,7 +1,7 @@
 import React from 'react';
 import { Typewriter } from 'react-simple-typewriter';
 import Tilt from 'react-parallax-tilt';
-import profileImage from '../../assets/Profile_Picture1.png';
+import profileImage from '../../assets/Updating_PP_March_8';
 
 const About = () => {
   return (
@@ -40,7 +40,10 @@ const About = () => {
               />
             </span>
           </h3>
+          
           {/* About Me Paragraph */}
+
+          {/* I am a third-year Computer Engineering student at the University of McMaster. My passion for Engineering is driven by my desire to compete, logically think, and create. Engineering is a competitive program, and with this degree, I will compete at a higher level. I set my goals high, as it motivates me to achieve more. I also take great pleasure in meeting new people and playing Badminton and Basketball. */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
             Hi, I'm Gobind Kailey, a third-year Computer Engineering Co-op student at McMaster University.
 
