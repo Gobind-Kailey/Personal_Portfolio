@@ -302,7 +302,7 @@ export const SkillsInfo = [
       image: nav2_certificateLogo,
       tags: ["Linux (Ubuntu 22.04)", "ROS2", "NAV2", "SLAM", "Python"],
       github: "https://github.com/Gobind-Kailey/ROS2-TurtleBot3-Maze-Navigation",
-     // webapp: "https://githubprofiledetective.netlify.app/",
+     // webapp: "https://",
     },
     {
       id: 1,
@@ -310,7 +310,7 @@ export const SkillsInfo = [
       image: ros2_certificateLogo,
       tags: ["Linux (Ubuntu 22.04)", "ROS2", "Python", "C++"],
       github: "https://github.com/Gobind-Kailey/ROS2-TurtleBot3-Maze-Navigation", 
-     // webapp: "https://githubprofiledetective.netlify.app/",
+     // webapp: "https://",
     },
     {
       id: 2,
@@ -318,7 +318,7 @@ export const SkillsInfo = [
       image: certificateLogo,
       tags: ["C"],
       github: "https://github.com/Gobind-Kailey/C-learning-", 
-     // webapp: "https://githubprofiledetective.netlify.app/",
+     // webapp: "https://",
     },
    
   ]
