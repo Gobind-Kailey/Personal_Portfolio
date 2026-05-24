@@ -122,12 +122,7 @@ export const SkillsInfo = [
       date: "May 2026 - Present",
       desc: "",
       skills: [
-        "Problem Solving",
-        "Interpersonal Skills",
-        "Teamwork",
-        "Leadership",
-        "Time Management",
-        "Adaptability",
+        "Unix", "TileBuilder", "Regression", "Fusion Compiler", "Communication"
       ],
     },  
     {
