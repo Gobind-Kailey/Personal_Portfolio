@@ -121,14 +121,14 @@ export const SkillsInfo = [
       company: "AMD",
       date: "May 2026 - Present",
       desc: "",
-      // skills: [
-      //   "Problem Solving",
-      //   "Interpersonal Skills",
-      //   "Teamwork",
-      //   "Leadership",
-      //   "Time Management",
-      //   "Adaptability",
-      // ],
+      skills: [
+        "Problem Solving",
+        "Interpersonal Skills",
+        "Teamwork",
+        "Leadership",
+        "Time Management",
+        "Adaptability",
+      ],
     },  
     {
       id: 1,
