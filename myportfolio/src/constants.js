@@ -31,6 +31,7 @@ import ubuntuLogo from './assets/ubuntu.webp';
 // Experience Section Logo's
 import subwaylogo from './assets/subway.png';
 import mars_rover_logo from './assets/mars_rover.png'
+import amd_logo from './assets/amd.webp'
 
 // Education Section Logo's
 import mcmasterLogo from './assets/Uni_mcmaster_logo.svg.png';
@@ -115,6 +116,22 @@ export const SkillsInfo = [
   export const experiences = [
     {
       id: 0,
+      img: amd_logo,
+      role: "ASIC Physical Design Engineer",
+      company: "AMD",
+      date: "May 2026 - Present",
+      desc: "",
+      // skills: [
+      //   "Problem Solving",
+      //   "Interpersonal Skills",
+      //   "Teamwork",
+      //   "Leadership",
+      //   "Time Management",
+      //   "Adaptability",
+      // ],
+    },  
+    {
+      id: 1,
       img: mars_rover_logo,
       role: "Software Engineer",
       company: "McMaster Mars Rover Team",
@@ -133,7 +150,7 @@ export const SkillsInfo = [
       ],
     },
     {
-      id: 1,
+      id: 2,
       img: subwaylogo,
       role: "Subway Sandwich Artist",
       company: "Subway",
