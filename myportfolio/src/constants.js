@@ -120,7 +120,7 @@ export const SkillsInfo = [
       role: "ASIC Physical Design Engineer",
       company: "AMD",
       date: "May 2026 - Present",
-      desc: "",
+      desc: "• Contributing on the PD methodology team, currently working on regression with the help of TileBuilder and Fusion Compiler",
       skills: [
         "Unix", "TileBuilder", "Regression", "Fusion Compiler", "Communication"
       ],
