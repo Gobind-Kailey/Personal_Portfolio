@@ -31,7 +31,7 @@ import ubuntuLogo from './assets/ubuntu.webp';
 // Experience Section Logo's
 import subwaylogo from './assets/subway.png';
 import mars_rover_logo from './assets/mars_rover.png'
-import amd_logo from './assets/amd.webp'
+import amd_logo from './assets/AMD.png'
 
 // Education Section Logo's
 import mcmasterLogo from './assets/Uni_mcmaster_logo.svg.png';
